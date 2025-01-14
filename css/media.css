@@ -1,0 +1,1103 @@
+@media (max-width: 1600px) {
+
+    /* header */
+
+    .head__menu-list {
+        margin-right: 65px;
+    }
+
+    .head__menu-item:nth-last-child(n+2) {
+        margin-right: 65px;
+    }
+
+    /* about-us section */
+
+    .about-us__block {
+        max-width: 1780px;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .about-us__small-block {
+        margin-right: 0;
+        margin-bottom: 32px;
+        max-width: 1769px;
+        width: 100%;
+        min-height: 924px;
+    }
+
+    .about-us__sidebar {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .about-us__paragraph {
+        margin-right: 0;
+        max-width: 455px;
+    }
+
+    .about-us__col {
+        min-width: 100%;
+    }
+
+    /* stages section */
+
+    .stages__content {
+        max-width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .stages__block-text {
+        min-width: 437px;
+    }
+
+    .stages__picture {
+        background-image: url("../img/hands.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 100%;
+        min-width: 100%;
+        min-height: 689px;
+    }
+
+    /*questions*/
+
+    .questions__link {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .questions__list {
+        max-width: 100%;
+    }
+
+    /* basement */
+
+    .basement__container {
+        justify-content: space-around;
+    }
+
+    .basement__block {
+        display: none;
+    }
+
+    .basement__navigator {
+        min-width: 251px;
+        padding-right: 0;
+    }
+
+    .basement__form {
+        min-width: 600px;
+        padding-right: 0;
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    .container {
+        padding: 0 50px;
+    }
+
+    /* header */
+
+    .head {
+        padding-top: 26px;
+        padding-bottom: 12px;
+        margin-bottom: 50px;
+    }
+
+    .head__pictur-logo {
+        width: 150px;
+        height: 48px;
+    }
+
+    .head__menu-item:nth-last-child(n+2) {
+        margin-right: 60px;
+    }
+
+    .head__menu-list {
+        margin-right: 106px;
+    }
+
+    /* banner section */
+
+    .banner {
+        margin-bottom: 36px;
+    }
+
+    .banner__head {
+        padding: 160px 77px 160px 77px;
+        background-image: url("../img/balconies.jpg");
+    }
+
+    .banner__hero {
+        margin: 0;
+        margin-bottom: 16px;
+        font-size: 60px;
+        line-height: 73px;
+        max-width: 770px;
+    }
+
+    .banner__text {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 60px;
+        max-width: 660px;
+    }
+
+    .banner__btn {
+        padding: 25px 39px 25px 36px;
+        letter-spacing: 0.4px;
+    }
+
+    /* about-us section */
+
+    .about-us {
+        margin-bottom: 74px;
+    }
+
+    .about-us__block-text {
+        margin-bottom: 58px;
+    }
+
+    .about-us__small-block {
+        max-width: 924px;
+        min-height: 640px;
+        margin: 0;
+        margin-bottom: 32px;
+    }
+
+    .about-us__sidebar {
+        padding: 50px 49px 48px 51px;
+    }
+
+    .about-us__col {
+        max-width: 924px;
+    }
+
+    .about-us__work {
+        max-width: 924px;
+        padding-left: 75px;
+        padding-right: 120px;
+    }
+
+    .about-us__heading {
+        margin-bottom: 10px;
+    }
+
+    /* stages section */
+
+    .stages {
+        margin-bottom: 82px;
+    }
+
+    .stages__block-text {
+        margin-bottom: 21px;
+        max-width: 437px;
+    }
+
+    .stages__content {
+        display: inline-block;
+        max-width: 437px;
+        margin: 0;
+    }
+
+    .stages__text {
+        max-width: 437px;
+    }
+
+    .stages__picture {
+        background-image: url("../img/laptops.jpg");
+        background-repeat: no-repeat;
+        background-position: top;
+        min-width: 437px;
+        max-height: 689px;
+    }
+
+    /*questions*/
+
+    .questions {
+        margin-bottom: 78px;
+    }
+
+    .questions__title {
+        margin-bottom: 30px;
+    }
+
+    .questions__list {
+        max-width: 100%;
+        padding: 65px 60px 63px 60px;
+    }
+
+    .questions__heading {
+        padding-right: 0;
+        margin-bottom: 9px;
+        max-width: 799px;
+    }
+
+    /* basement */
+
+    .basement {
+        padding-top: 39px;
+        padding-bottom: 46px;
+    }
+
+    .basement__container {
+        justify-content: space-between;
+    }
+
+    .basement__navigator {
+        min-width: 0;
+        margin-right: 0 auto;
+        padding-top: 11px;
+        margin-left: 0 auto;
+    }
+
+    .basement__form {
+        max-width: 541px;
+        min-width: 0;
+    }
+
+    .basement__form-night {
+        margin-bottom: 27px;
+    }
+
+    .basement__form-message {
+        margin-bottom: 29px;
+    }
+
+    .basement__form-client {
+        padding-top: 12px;
+    }
+
+    .basement__heading {
+        margin-bottom: 15px;
+        padding-top: 6px;
+    }
+
+    .basement__btn {
+        margin-right: 23px;
+        padding: 19px 37px 19px 37px;
+        background-color: var(--color1);
+        color: var(--color5);
+    }
+
+}
+
+@media (max-width: 973px) {
+
+    /* header */
+
+    .head {
+        padding-top: 18px;
+        padding-bottom: 16px;
+        margin-bottom: 36px;
+    }
+
+    .head__pictur-logo {
+        width: 110px;
+        height: 35px;
+    }
+
+    .head__menu-item:nth-last-child(n+2) {
+        margin-right: 40px;
+    }
+
+    .head__menu-list {
+        margin-right: 45px;
+    }
+
+    .head__menu-link {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    /* banner section */
+
+    .banner {
+        margin-bottom: 40px;
+    }
+
+    /* about-us section */
+
+    .about-us {
+        margin-bottom: 80px;
+    }
+
+    .about-us__block-text {
+        margin-bottom: 20px;
+    }
+
+    .about-us__small-block {
+        background-image: url("../img/installer.jpg");
+        border-radius: 24px;
+        width: 100%;
+        min-height: 650px;
+    }
+
+    .about-us__sidebar {
+        padding: 34px 40px 34px 40px;
+        border-radius: 24px;
+    }
+
+    .about-us__btn {
+        padding: 18px 37px 19px 37px;
+    }
+
+    .about-us__work {
+        width: 100%;
+        padding: 32px 40px 33px 39px;
+        align-items: center;
+        border-radius: 24px;
+    }
+
+    .about-us__userpic {
+        margin-right: 16px;
+        width: 114px;
+        height: 99px;
+        padding: 0;
+    }
+
+    .about-us__content {
+        padding-top: 3px;
+    }
+
+    .about-us__paragraph {
+        max-width: 366px;
+    }
+
+    /* stages section */
+
+    .stages {
+        margin-bottom: 83px;
+    }
+
+    .stages__title {
+        margin-bottom: 30px;
+    }
+
+    .stages__block {
+        flex-direction: column;
+        justify-self: flex-end;
+    }
+
+    .stages__block-text {
+        margin-bottom: 24px;
+        max-width: 873px;
+    }
+
+    .stages__text {
+        display: inline;
+    }
+
+    .stages__content {
+        max-width: 873px;
+    }
+
+    .stages__text {
+        max-width: 873px;
+    }
+
+    .stages__picture {
+        background-image: url("../img/hands.jpg");
+        order: -1;
+        min-width: 291px;
+        min-height: 284px;
+        border-radius: 24px;
+        margin-bottom: 39px;
+    }
+
+    /*questions*/
+
+    .questions {
+        margin-bottom: 40px;
+    }
+
+    .questions__list {
+        padding: 35px 65px 31px 40px;
+    }
+
+    .questions__heading_average {
+        max-width: 500px;
+    }
+
+    /* basement */
+
+    .basement {
+        padding-top: 50px;
+    }
+
+    .basement__navigator {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .basement__menu {
+        justify-content: flex-end;
+    }
+
+    .basement__form {
+        max-width: 873px;
+    }
+
+
+    .basement__form-client {
+        padding-top: 0;
+    }
+
+    .basement__form-message {
+        margin-bottom: 28px;
+    }
+
+    .basement__item {
+        display: none;
+    }
+
+    .basement__heading {
+        margin-bottom: 26px;
+    }
+
+    .basement__form-block {
+        justify-content: center;
+    }
+
+    .basement__btn {
+        padding: 19px 37px 19px 37px;
+        background-color: var(--color1);
+        color: var(--color5);
+    }
+
+    .basement__logo-pictur {
+        margin-bottom: 12px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    /* header */
+
+    .head__container {
+        flex-wrap: nowrap;
+    }
+
+    .head__logo {
+        order: -2;
+    }
+
+    .head__pictur-logo {
+        width: 110px;
+        height: 35px;
+        margin-right: 40px;
+    }
+
+    .head__menu-item:nth-last-child(n+2) {
+        margin-right: 40px;
+    }
+
+    /* banner section */
+
+    .banner {
+        margin-bottom: 36px;
+    }
+
+    .banner__head {
+        padding: 161px 40px 159px 40px;
+        border-radius: 24px;
+        background-image: url("../img/photo-of-balconies.jpg");
+    }
+
+    .banner__hero {
+        font-size: 50px;
+        line-height: 61px;
+        max-width: 588px;
+    }
+
+    .banner__text {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 60px;
+        max-width: 558px;
+    }
+
+    .banner__btn {
+        padding: 25px 39px 25px 39px;
+        letter-spacing: 0.1px;
+    }
+
+    /* about-us section */
+
+    .about-us__work {
+        padding-right: 39px;
+    }
+
+    .about-us__heading {
+        padding-top: 2px;
+    }
+
+    .about-us__content {
+        padding: 0;
+    }
+
+    .about-us__block-text {
+        margin-bottom: 54px;
+    }
+
+    /*questions*/
+
+    .questions {
+        margin-bottom: 83px;
+    }
+
+    .questions__title {
+        margin-bottom: 28px;
+    }
+
+    .questions__list {
+        padding: 35px 65px 31px 40px;
+    }
+
+    /* basement */
+
+    .basement__heading {
+        padding-top: 2px;
+        margin-bottom: 25px;
+    }
+
+    .basement__navigator {
+        display: inline-block;
+    }
+
+    .basement__menu {
+        justify-content: flex-end;
+    }
+
+    .basement__form {
+        max-width: 873px;
+        order: -1;
+        margin-bottom: 37px;
+    }
+
+    .basement__form-night,
+    .basement__form-input,
+    .basement__form-message {
+        max-width: 541px;
+    }
+
+    .basement__form-block {
+        justify-content: left;
+    }
+
+}
+
+@media (max-width: 720px) {
+
+    /* header */
+
+    .head {
+        padding-top: 18px;
+        padding-bottom: 35px;
+        margin-bottom: 19px;
+    }
+
+    .head__container {
+        flex-wrap: wrap;
+    }
+
+    .head__menu {
+        overflow: hidden;
+        min-width: 400px;
+        width: 100%;
+        overflow: auto;
+    }
+
+    .head__menu-list {
+        margin-right: 0;
+        justify-content: space-between;
+    }
+
+    .head__menu-item {
+        margin-right: 0;
+    }
+
+    .head__menu-item:nth-last-child(n+2) {
+        margin-right: 25px;
+    }
+
+    .head__menu-link {
+        display: flex;
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+
+    .head__btn {
+        order: -1;
+        padding-left: 100px;
+    }
+
+    /* banner section */
+
+    .banner {
+        margin-bottom: 60px;
+    }
+
+    .banner__head {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 60px 22px 60px 22px;
+        border-radius: 20px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .banner__hero {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .banner__text {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .banner__btn {
+        padding: 13px 28px 13px 28px;
+        font-size: 12px;
+        line-height: 15px;
+        border-radius: 10px;
+    }
+
+    /* about-us section */
+
+    .about-us__small-block {
+        min-width: 290px;
+    }
+
+    .about-us__sidebar {
+        flex-wrap: wrap;
+        display: inline-block;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .about-us__paragraph {
+        max-width: 100%;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+
+    .about-us__work {
+        min-width: 290px;
+        flex-wrap: wrap;
+    }
+
+    /* stages section */
+
+    .stages__block-text {
+        min-width: 290px;
+    }
+
+    /* basement */
+
+    .basement__row {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .basement__form {
+        min-width: 541px;
+        min-width: 100%;
+    }
+
+    .basement__navigator {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0 auto;
+        min-width: 100%;
+    }
+
+    .basement__form-block {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .basement__btn {
+        margin-bottom: 19px;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .container {
+        padding: 0 15px;
+    }
+
+    /* header */
+
+    .head {
+        padding-bottom: 39px;
+        margin-bottom: 21px;
+        border-radius: 0 0 16px 16px;
+        overflow: hidden;
+    }
+
+    .head__menu {
+        min-width: 320px;
+    }
+
+    .head__menu::-webkit-scrollbar {
+        display: none;
+    }
+
+    .head__menu-list {
+        min-width: 414px;
+        overflow: scroll;
+        padding: 0;
+        padding-top: 16px;
+    }
+
+    .head__btn {
+        padding-left: 86px;
+    }
+
+    /* banner section */
+
+    .banner__hero {
+        font-size: 20px;
+        line-height: 25px;
+        max-width: 247px;
+        align-items: center;
+        margin-bottom: 4px;
+    }
+
+    .banner__text {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 32px;
+        max-width: 558px;
+    }
+
+    .banner__btn {
+        padding: 13px 28px 13px 28px;
+        font-size: 12px;
+        line-height: 15px;
+        border-radius: 10px;
+    }
+
+    /* about-us section */
+
+    .about-us__text {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .about-us__small-block {
+        min-height: 0;
+        background-image: none;
+    }
+
+
+    .about-us__sidebar {
+        background-color: white;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .about-us__sidebar::before {
+        content: "";
+        display: inline-block;
+        background-image: url("../img/rectangle.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        min-width: 290px;
+        min-height: 200px;
+        border-radius: 18px;
+        margin-bottom: 5px;
+    }
+
+    .about-us__paragraph {
+        color: var(--color-black);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+        margin-bottom: 11px;
+    }
+
+    .about-us__btn {
+        background-color: none;
+        color: var(--color1);
+        font-size: 12px;
+        line-height: 15px;
+        padding: 10px 42px 10px 42px;
+        display: inline-block;
+        border-radius: 10px;
+        border: 3px solid var(--color1);
+    }
+
+    .about-us__desc {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    /* stages section */
+
+    .stages__btn-left {
+        padding: 12px 44px 12px 42px;
+        font-size: 12px;
+        line-height: 15px;
+        border-radius: 10px;
+        margin-right: 4px;
+    }
+
+    .stages__btn-right {
+        padding: 11px 31px 10px 31px;
+        font-size: 12px;
+        line-height: 15px;
+        border-radius: 10px;
+    }
+
+    /* basement */
+
+    .basement__container {
+        padding-bottom: 26px;
+    }
+
+    .basement__form-block {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .basement__navigator {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    /* header */
+
+    .head__menu-list {
+        justify-content: flex-start;
+    }
+
+    /* about-us section */
+
+    .about-us {
+        margin-bottom: 58px;
+    }
+
+    .about-us__title {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 19px;
+    }
+
+    .about-us__block-text {
+        margin-bottom: 12px;
+    }
+
+    .about-us__sidebar {
+        text-align: left;
+    }
+
+    .about-us__col {
+        max-width: 290px;
+    }
+
+    .about-us__work {
+        padding: 0;
+        border: 0;
+        background-image: cover;
+        background-repeat: no-repeat;
+        background-position: left;
+        margin-bottom: 30px;
+    }
+
+    .about-us__icon {
+        height: 49px;
+        width: 64px;
+        background-image: url("../img/icon.jpg");
+        margin-bottom: 10px;
+    }
+
+    .about-us__sticker {
+        height: 49px;
+        width: 64px;
+        background-image: url("../img/sticker.jpg");
+        margin-bottom: 11px;
+    }
+
+    .about-us__userpic {
+        display: none;
+    }
+
+    .about-us__content {
+        padding-top: 0;
+    }
+
+    .about-us__heading {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: .01em;
+        margin-bottom: 5px;
+    }
+
+    /* stages section */
+
+    .stages {
+        margin-bottom: 58px;
+    }
+
+    .stages__title {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .stages__heading {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: .01em;
+    }
+
+    .stages__text {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .stages__picture {
+        background-image: url("../img/hands.jpg");
+        background-size: 290px 160px;
+        border-radius: 15px;
+        margin: 0;
+        margin-bottom: 16px;
+        width: 100%;
+        min-height: 160px;
+        min-width: 290px;
+    }
+
+    .stages__btn-left {
+        margin-right: 7px;
+    }
+
+    /*questions*/
+
+    .questions {
+        margin-bottom: 58px;
+    }
+
+    .questions__title {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .questions__list {
+        max-width: 290px;
+        border: none;
+        padding: 0;
+    }
+
+    .questions__heading {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: .01em;
+        margin-bottom: 5px;
+    }
+
+    .questions__text {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    /* basement */
+
+    .basement {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .basement__form {
+        margin-bottom: 6px;
+    }
+
+    .basement__heading {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        padding-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .basement__form-night {
+        font-size: 14px;
+        padding: 14px 20px 14px 20px;
+        border-radius: 15px;
+        margin-bottom: 24px;
+    }
+
+    .basement__form-input {
+        margin-bottom: 25px;
+    }
+
+    .basement__form-message {
+        padding: 14px 20px 73px 20px;
+        font-size: 14px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+
+    .basement__form-block {
+        border-bottom: 1px solid var(--color9);
+    }
+
+    .basement__label-checkbox {
+        padding-bottom: 30px;
+    }
+
+    .basement__btn {
+        padding: 12px 19px 13px 19px;
+        font-size: 12px;
+        line-height: 15px;
+        margin-right: 0;
+        border-radius: 8px;
+        margin-bottom: 19px;
+    }
+
+    .basement__navigator {
+        margin-bottom: 0;
+    }
+
+    .basement__logo-pictur {
+        width: 131px;
+        height: 42px;
+    }
+
+    .basement__picture {
+        width: 40px;
+        height: 40px;
+    }
+
+    .basement__icons {
+        margin-right: 16px;
+    }
+
+    .form {
+        border-bottom: 1px solid #414141;
+        color: var(--color9);
+    }
+}
